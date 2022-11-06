@@ -42,7 +42,7 @@
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
     <ItemGroup Condition="'$(SilkEnableSourceLink)' != 'false' And '$(SilkSourceLinkExempt)' == ''">
-        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
     </ItemGroup>
     <PropertyGroup Condition="'$(SilkSourceLinkExempt)' != ''">
         <IncludeSymbols>false</IncludeSymbols>
